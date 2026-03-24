@@ -1,0 +1,38 @@
+Zadatak 1 (meni.html i meni.css)
+
+Zbog veće fleksibilnosti i manje potrebe za prilagođavanjem, koristila bih flexbox umjesto float-a pri kreiranju menija, iz razloga
+što isti omogućava jednostavnije raspoređivanje elemenata.
+
+Nije potrebno ponavljanje margin=0 i padding=0 u ul{}, jer je to već urađeno u body{}, s obzirom da se ono što je na nivou body{} odnosi
+na cijelu stranicu, uključujući i ul. Margin i padding bi dodala u ul{} ukoliko želim razmak koji se razlikuje od onog definisanog na 
+globalnom nivou. Ovo bi olakšalo održavanje, te promjenu koda.
+
+
+Zadatak 2 (nekretnine.html i nekretnine.css)
+
+U ovom zadatku nije bilo najpogodnije koristiti flexbox jer se svaki red posmatra zasebno, te se položaj elemenata između redova nije mogao
+uspostaviti. Tačnije, nije se moglo postići to da svaki element iz donjeg reda bude direktno ispod odgovarajućeg elementa iz gornjeg 
+reda. Kada sam centrirala elemente sa "justify-content: center", svaki red je bio centriran u odnosu na ekran, a kada bih postavila elemente 
+da počinju od početka sa "justify-content: flex-start", svi redovi budu poravnati uz lijevu ivicu ekrana, te nemaju iste margine sa lijeve
+i desne strane. 
+Grid je mnogo bolja opcija za ovaj zadatak jer je dizajniran za upravljanje dvodimenzionalnim rasporedima, te su elementi u različitim 
+redovima su uvijek povezani preko kolona. Kod Grid-a, redovi se formiraju tako da elementi u svakom redu počinju tačno ispod prvog elementa 
+iz prethodnog reda. 
+
+grid-template-columns: repeat(auto-fit, 300px); za ovaj dio bih promijenila to da bih koristila procentualne širine umjesto px, radi 
+fleksibilnosti za različite ekrane. 
+
+Također text-align: left za .detalji-nekretnine i text-align: right za .cijena-nekretnine mogu biti nekonzistentni. 
+
+Pozitivna strana ovog dijela početnog projekta je ta što je HTML je podijeljen u sekcije: Stan, Kuća, Poslovni prostor. Svaka sekcija 
+ima jedinstven id, a elementi su označeni klasama poput .nekretnina, .kuca, .pp. Ovo omogućava specifičnost među stilovima, kao i lakše održavanje.
+
+Zadatak 3 (detalji.html i detalji.css)
+
+Pozitivna strana ovog dijela početnog projekta je također ta što je HTML podijeljen na sekcije: osnovno, detalji, upiti. To olakšava čitanje
+ i održavanje koda.
+Slike u #osnovno imaju dobro podešene dimenzije jer se koriste procentualne širine za prilagodljivost različitim širinama ekrana.
+Sekcije su vizualno odvojene pomoću border i background-color, te imaju jasno definisane margine i padding, što dovodi do urednog prikaza.
+
+
+

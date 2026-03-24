@@ -1,0 +1,53 @@
+body {
+    background-color: #fdf1d3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    position: relative; 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative; 
+    z-index: 2; 
+}
+li:hover a {
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+
+.icons {
+    position: absolute; 
+    bottom: 0; 
+    left: 16px; 
+    display: block; 
+    z-index: 1; 
+}
+
+.icons i {
+    font-size: 100%; 
+    transition: font-size 1s; 
+    cursor: pointer; 
+}
+
+li:hover .icons i {
+    font-size: calc(2 * 1em); 
+}
