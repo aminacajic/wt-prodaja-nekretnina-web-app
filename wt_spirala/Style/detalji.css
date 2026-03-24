@@ -1,0 +1,132 @@
+body {
+  background-color: #fdf1d3;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body h3 {
+  margin-left: 20px;
+}
+
+iframe {
+  border: none; 
+  width: 100%;
+  height: 50px;
+}
+
+/* Stil za div #osnovno */
+#osnovno {
+  text-align: left;
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 20px;
+}
+
+#osnovno img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Stil za div #detalji */
+#detalji {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 20px;
+}
+
+#kolona1 {
+  order: 1;
+  flex: 1 1 auto;
+  align-self: auto;
+}
+
+#kolona2 {
+  order: 2;
+  flex: 1 1 auto;
+  align-self: auto;
+}
+
+#opis {
+  order: 3;
+  flex: 0 1 100%;
+  align-self: auto;
+}
+
+/* Stil za div #upiti */
+#upiti {
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative; 
+}
+
+.upit {
+  border: 1px solid #000;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  flex: 1 1 45%; 
+  margin-right: 20px ;
+  margin-left: 20px;
+}
+@media (min-width: 800px)  {
+  .upit {
+    flex: 1 1 45%; 
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 799px) and (min-width: 600px) {
+  .upit {
+    flex: 1 1 100%; 
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 599px) {
+  #upiti {
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+  .upit {
+    display: none; /* Sakrij ostale upite */
+  }
+ 
+  .upit:first-child {
+    display: block; 
+  }
+
+  #upiti::after, #upiti::before {
+    position: absolute;
+    top: 100px; /* sredina upita */
+    width: 25px;
+    height: 25px;
+    background-color: #a6a2a2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  #upiti::before {
+    left: 7px;
+    content: '<'; 
+  }
+
+  #upiti::after {
+    right: 7px;
+    content: '>'; 
+  }
+}
