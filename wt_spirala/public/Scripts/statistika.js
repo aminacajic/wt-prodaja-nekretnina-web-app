@@ -103,15 +103,16 @@ document.getElementById('korisnik-form').addEventListener('submit', function(eve
         });
         const rezultat4 = statistika.histogramCijena(periodi, rasponiCijena);
         const rezultatTekst = rezultat4.map(item => `
-            Indeks perioda: ${item.indeksPerioda},
-            Indeks raspona cijena: ${item.indeksRasponaCijena},
-            Broj nekretnina: ${item.brojNekretnina}
+            Indeks Perioda: ${item.indeksPerioda},
+            Indeks Raspona Cijena: ${item.indeksRasponaCijena},
+            Broj Nekretnina: ${item.brojNekretnina}
         `).join('\n\n');
         document.getElementById('histogramRezultat').innerText = rezultatTekst;
 
         const histogramPodaci = statistika.histogramCijena(periodi, rasponiCijena);
 
-        iscrtajHistogram(periodi, rasponiCijena, histogramPodaci);
+    // Pozivamo iscrtajHistogram
+    iscrtajHistogram(periodi, rasponiCijena, histogramPodaci);
     });
 
 

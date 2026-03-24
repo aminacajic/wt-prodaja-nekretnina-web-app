@@ -1,0 +1,354 @@
+[
+  {
+    "id": 1,
+    "tip_nekretnine": "Stan",
+    "naziv": "Useljiv stan Sarajevo",
+    "kvadratura": 58,
+    "cijena": 232000,
+    "tip_grijanja": "plin",
+    "lokacija": "Novo Sarajevo",
+    "godina_izgradnje": 2019,
+    "datum_objave": "01.10.2023.",
+    "opis": "Sociis natoque penatibus.",
+    "upiti": [
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Nullam eu pede mollis pretium."
+      },
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Phasellus viverra nulla."
+      },
+      {
+        "korisnik_id": 3,
+        "tekst_upita": "Integer tincidunt."
+      },
+      {
+        "korisnik_id": 4,
+        "tekst_upita": "Donec quam felis ultricies nec."
+      },
+      {
+        "korisnik_id": 8,
+        "tekst_upita": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+      },
+      {
+        "korisnik_id": 9,
+        "tekst_upita": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
+      },{
+        "korisnik_id": 8,
+        "tekst_upita": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+      },
+      {
+        "korisnik_id": 9,
+        "tekst_upita": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
+      },
+      {
+        "korisnik_id": 5,
+        "tekst_upita": "Aenean massa."
+      },
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Da li je stan još dostupan?"
+      },
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Da li je stan još dostupan?"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "tip_nekretnine": "Poslovni prostor",
+    "naziv": "Mali poslovni prostor",
+    "kvadratura": 20,
+    "cijena": 70000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Integer tincidunt."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "tip_nekretnine": "Kuća",
+    "naziv": "Prostrana kuća Stari Grad",
+    "kvadratura": 120,
+    "cijena": 450000,
+    "tip_grijanja": "plin",
+    "lokacija": "Stari Grad",
+    "godina_izgradnje": 1985,
+    "datum_objave": "05.12.2023.",
+    "opis": "Curabitur blandit tempus porttitor.",
+    "upiti": [
+      {
+        "korisnik_id": 6,
+        "tekst_upita": "Vestibulum id ligula porta felis euismod semper."
+      },
+      {
+        "korisnik_id": 7,
+        "tekst_upita": "Etiam porta sem malesuada magna mollis euismod."
+      },
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Da li je stan još dostupan?"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "tip_nekretnine": "Stan",
+    "naziv": "Moderan stan Novo Sarajevo",
+    "kvadratura": 75,
+    "cijena": 275000,
+    "tip_grijanja": "struja",
+    "lokacija": "Novo Sarajevo",
+    "godina_izgradnje": 2015,
+    "datum_objave": "15.09.2023.",
+    "opis": "Lorem ipsum dolor sit amet.",
+    "upiti": []
+  },
+  {
+    "id": 5,
+    "tip_nekretnine": "Kuća",
+    "naziv": "Kuća sa baštom Novi Grad",
+    "kvadratura": 150,
+    "cijena": 500000,
+    "tip_grijanja": "plin",
+    "lokacija": "Novi Grad",
+    "godina_izgradnje": 2010,
+    "datum_objave": "20.11.2023.",
+    "opis": "Donec sed odio dui.",
+    "upiti": [
+      {
+        "korisnik_id": 8,
+        "tekst_upita": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+      },
+      {
+        "korisnik_id": 9,
+        "tekst_upita": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "tip_nekretnine": "Stan",
+    "naziv": "Jednosoban stan Centar",
+    "kvadratura": 35,
+    "cijena": 150000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2000,
+    "datum_objave": "10.08.2023.",
+    "opis": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
+    "upiti": []
+  },
+  {
+    "id": 7,
+    "tip_nekretnine": "Stan",
+    "naziv": "Luksuzan stan Stari Grad",
+    "kvadratura": 95,
+    "cijena": 380000,
+    "tip_grijanja": "plin",
+    "lokacija": "Stari Grad",
+    "godina_izgradnje": 2020,
+    "datum_objave": "22.12.2023.",
+    "opis": "Maecenas faucibus mollis interdum.",
+    "upiti": [
+      {
+        "korisnik_id": 10,
+        "tekst_upita": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros."
+      },
+      {
+        "korisnik_id": 11,
+        "tekst_upita": "Cras mattis consectetur purus sit amet fermentum."
+      },
+      {
+        "korisnik_id": 12,
+        "tekst_upita": "Aenean lacinia bibendum nulla sed consectetur."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "tip_nekretnine": "Kuća",
+    "naziv": "Velika kuća Centar",
+    "kvadratura": 200,
+    "cijena": 800000,
+    "tip_grijanja": "plin",
+    "lokacija": "Centar",
+    "godina_izgradnje": 1995,
+    "datum_objave": "01.01.2024.",
+    "opis": "Sed posuere consectetur est at lobortis.",
+    "upiti": [
+      {
+        "korisnik_id": 13,
+        "tekst_upita": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "tip_nekretnine": "Stan",
+    "naziv": "Namješten stan Novi Grad",
+    "kvadratura": 65,
+    "cijena": 210000,
+    "tip_grijanja": "struja",
+    "lokacija": "Novi Grad",
+    "godina_izgradnje": 2012,
+    "datum_objave": "05.07.2023.",
+    "opis": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+    "upiti": []
+  },
+  {
+    "id": 10,
+    "tip_nekretnine": "Poslovni prostor",
+    "naziv": "Prostor za kancelarije",
+    "kvadratura": 40,
+    "cijena": 120000,
+    "tip_grijanja": "struja",
+    "lokacija": "Novo Sarajevo",
+    "godina_izgradnje": 2018,
+    "datum_objave": "18.06.2023.",
+    "opis": "Nulla vitae elit libero, a pharetra augue.",
+    "upiti": [
+      {
+        "korisnik_id": 14,
+        "tekst_upita": "Lorem ipsum dolor sit amet."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "tip_nekretnine": "Kuća",
+    "naziv": "Porodična kuća Stari Grad",
+    "kvadratura": 180,
+    "cijena": 600000,
+    "tip_grijanja": "plin",
+    "lokacija": "Stari Grad",
+    "godina_izgradnje": 1990,
+    "datum_objave": "12.11.2023.",
+    "opis": "Cras mattis consectetur purus sit amet fermentum.",
+    "upiti": [
+      {
+        "korisnik_id": 15,
+        "tekst_upita": "Donec sed odio dui."
+      },
+      {
+        "korisnik_id": 16,
+        "tekst_upita": "Aenean eu leo quam."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "tip_nekretnine": "Poslovni prostor",
+    "naziv": "Prostor za kancelarije ",
+    "kvadratura": 40,
+    "cijena": 120000,
+    "tip_grijanja": "struja",
+    "lokacija": "Novo Sarajevo",
+    "godina_izgradnje": 2018,
+    "datum_objave": "18.06.2021.",
+    "opis": "Nulla vitae elit libero, a pharetra augue.",
+    "upiti": [
+      {
+        "korisnik_id": 14,
+        "tekst_upita": "Lorem ipsum dolor sit amet."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "tip_nekretnine": "Poslovni prostor",
+    "naziv": "Prostor za kancelarije ",
+    "kvadratura": 40,
+    "cijena": 120000,
+    "tip_grijanja": "struja",
+    "lokacija": "Novo Sarajevo",
+    "godina_izgradnje": 2018,
+    "datum_objave": "18.06.2011.",
+    "opis": "Nulla vitae elit libero, a pharetra augue.",
+    "upiti": [
+      {
+        "korisnik_id": 14,
+        "tekst_upita": "Lorem ipsum dolor sit amet."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "tip_nekretnine": "Poslovni prostor",
+    "naziv": "Prostor za kancelarije ",
+    "kvadratura": 40,
+    "cijena": 120000,
+    "tip_grijanja": "struja",
+    "lokacija": "Novo Sarajevo",
+    "godina_izgradnje": 2018,
+    "datum_objave": "18.06.2021.",
+    "opis": "Nulla vitae elit libero, a pharetra augue.",
+    "upiti": [
+      {
+        "korisnik_id": 14,
+        "tekst_upita": "Lorem ipsum dolor sit amet."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "tip_nekretnine": "Stan",
+    "naziv": "Jednosoban stan Centar",
+    "kvadratura": 35,
+    "cijena": 150000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2000,
+    "datum_objave": "10.08.2011.",
+    "opis": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
+    "upiti": []
+  },
+  {
+    "id": 16,
+    "tip_nekretnine": "Stan",
+    "naziv": "Jednosoban stan Centar",
+    "kvadratura": 35,
+    "cijena": 150000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2000,
+    "datum_objave": "10.08.2023.",
+    "opis": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
+    "upiti": []
+  },
+  {
+    "id": 17,
+    "tip_nekretnine": "Stan",
+    "naziv": "Jednosoban stan Centar",
+    "kvadratura": 35,
+    "cijena": 150000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2000,
+    "datum_objave": "10.08.2023.",
+    "opis": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
+    "upiti": []
+  },
+  {
+    "id": 18,
+    "tip_nekretnine": "Stan",
+    "naziv": "Jednosoban stan Centar",
+    "kvadratura": 35,
+    "cijena": 150000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2000,
+    "datum_objave": "10.08.2023.",
+    "opis": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
+    "upiti": []
+  }
+]
