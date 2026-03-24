@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="bs-BA">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Testiranje Nekretnina</title>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>   
+   <p><strong>Prosječna kvadratura</strong></p>
+
+   <form id="filter-form">
+       <label for="kriterij">Odaberite kriterij:</label>
+       <select id="kriterij" name="kriterij">
+           <option value="id">ID nekretnine</option>
+           <option value="tip_nekretnine">Tip nekretnine</option>
+           <option value="naziv">Naziv nekretnine</option>
+           <option value="kvadratura">Kvadratura nekretnine</option>
+           <option value="cijena">Cijena nekretnine</option>
+           <option value="tip_grijanja">Tip grijanja nekretnine</option>
+           <option value="lokacija">Lokacija nekretnine</option>
+           <option value="godina_izgradnje">Godina izgradnje nekretnine</option>
+           <option value="datum_objave">Datum objave nekretnine</option>
+           <option value="opis">Opis nekretnine</option>
+           <option value="upit">Upit nekretnine</option>
+       </select>
+       <br><br>
+       <label for="vrijednost">Unesite vrijednost:</label>
+       <input type="text" id="vrijednost" name="vrijednost" required>
+       <br><br>
+       <button type="submit">Potvrdi</button>
+       <br><br>
+       <p>Prosječna kvadratura svih nekretnina koje zadovoljavaju proslijeđeni kriterij:</strong> <span id="prosjecnaKvadratura"></span></p>
+   </form>
+
+
+   <p><strong>Outlier</strong></p>
+   <form id="outlier-form">
+       <label for="outlier-kriterij">Odaberite kriterij:</label>
+       <select id="outlier-kriterij" name="kriterij">
+           <option value="id">ID nekretnine</option>
+           <option value="tip_nekretnine">Tip nekretnine</option>
+           <option value="naziv">Naziv nekretnine</option>
+           <option value="kvadratura">Kvadratura nekretnine</option>
+           <option value="cijena">Cijena nekretnine</option>
+           <option value="tip_grijanja">Tip grijanja nekretnine</option>
+           <option value="lokacija">Lokacija nekretnine</option>
+           <option value="godina_izgradnje">Godina izgradnje nekretnine</option>
+           <option value="datum_objave">Datum objave nekretnine</option>
+           <option value="opis">Opis nekretnine</option>
+           <option value="upit">Upit nekretnine</option>
+       </select>
+
+
+       <br><br>
+       <label for="outlier-vrijednost">Unesite vrijednost:</label>
+       <input type="text" id="outlier-vrijednost" name="vrijednost" required>
+       <br><br>
+
+
+       <label for="nazivSvojstva">Odaberite svojstvo:</label>
+       <select id="nazivSvojstva" name="nazivSvojstva">
+           <option value="id">ID nekretnine</option>
+           <option value="kvadratura">Kvadratura nekretnine</option>
+           <option value="cijena">Cijena nekretnine</option>
+           <option value="godina_izgradnje">Godina izgradnje nekretnine</option>
+       </select>
+       <br><br>
+       <button type="submit">Potvrdi</button>
+       <br><br>
+       <p>Nekretnina čije svojstvo ima najveće apsolutno odstupanje vrijednosti od srednje vrijednosti tog svojstva među svim nekretninama: </strong> <span id="outlier"></span></p>
+   </form>
+
+
+   <p><strong>Nekretnine od korisnika</strong></p>
+
+
+   <form id="korisnik-form">
+       <label for="odaberiKorisnika">Odaberite korisnika:</label>
+       <select id="odaberiKorisnika" name="odaberiKorisnika">
+
+
+       </select>
+       <br><br>
+       <button type="submit">Potvrdi</button>
+       <br><br>
+       <p>Niz nekretnina u kojima je korisnik napisaobar jedan upit:</strong> <span id="mojeNekretnine"></span></p>
+   </form>
+
+
+   <p><strong>Histogram</strong></p>
+  
+   <form id="histogram-form">
+       <label for="periodi">Unesite periode (od, do):</label>
+       <div id="periodi">
+           <div class="period">
+               <input type="number" name="period-od" placeholder="Od" required>
+               <input type="number" name="period-do" placeholder="Do" required>
+           </div>
+       </div>
+       <button type="button" onclick="dodajPeriod()">Dodaj period</button>
+       <br><br>
+
+
+       <label for="rasponi">Unesite raspone cijena (od, do):</label>
+       <div id="rasponi">
+           <div class="raspon">
+               <input type="number" name="raspon-od" placeholder="Od" required>
+               <input type="number" name="raspon-do" placeholder="Do" required>
+           </div>
+       </div>
+       <button type="button" onclick="dodajRaspon()">Dodaj raspon cijena</button>
+       <br><br>
+       <button type="submit">Generiši histogram</button>
+       <br><br>
+       <p>Rezultat histograma:</strong> <span id="histogramRezultat"></span></p>
+       <div id="histogram-container">
+        <canvas id="histogramCanvas" width="400" height="200"></canvas>
+    </div>
+    
+      
+      
+   </form>
+   <script src="../Scripts/SpisakNekretnina.js"></script>
+   <script src="../Scripts/nekretnine.js"></script>
+   <script src="../Scripts/StatistikaNekretnina.js"></script>
+   <script src="../Scripts/statistika.js"></script>
