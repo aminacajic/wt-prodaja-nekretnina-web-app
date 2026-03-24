@@ -2,7 +2,7 @@
 
 Ovo je repozitorij full-stack projekta razvijenog u okviru predmeta **Web tehnologije** na Elektrotehničkom fakultetu u Sarajevu.
 
-Aplikacija omogućava pregled i prodaju nekretnina. Razvoj je sproveden kroz četiri faze (spirale), postupno gradeći kompletan sistem sa frontend-om, backend-om i bazom podataka, prema definisanim specifikacijama.
+Aplikacija omogućava pregled i prodaju nekretnina. Razvoj je sproveden kroz četiri faze (spirale), postepeno gradeći kompletan sistem sa frontend-om, backend-om i bazom podataka, prema definisanim specifikacijama.
 
 ---
 
