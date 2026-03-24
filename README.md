@@ -14,7 +14,7 @@ Aplikacija omogućava pregled i prodaju nekretnina. Razvoj je sproveden kroz če
 ---
 ## Ključne funkcionalnosti i faze razvoja
 
-Projekt je strukturiran po granama koje prate evoluciju aplikacije. Finalna, stabilna verzija se nalazi na **`main`** grani.
+Projekt je strukturiran po granama koje prate evoluciju aplikacije. Finalna verzija se nalazi na **`main`** grani.
 
 ### Spirala 1: Statički interfejs & responzivnost
 * Implementirane statične HTML/CSS stranice: **Početna, Nekretnine, Detalji, Vijesti**.
