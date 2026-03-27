@@ -1,6 +1,6 @@
 # Web aplikacija za prodaju nekretnina - Projekat (WT 2024/25)
 
-## :link: Mirror repozitorij
+##  Mirror repozitorij
 
 Ovaj projekat je također dostupan i na Bitbucketu:
 [Link na Bitbucket repozitorij](https://bitbucket.org/aminacajic/wt24p19218/src/master/)
